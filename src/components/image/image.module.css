@@ -1,0 +1,11 @@
+.wrapper {
+  position: relative;
+  text-align: center;
+  padding: 30px 20px;
+  height: 80%;
+  width: 100%;
+}
+.canvas {
+  position: relative;
+  max-height: 80vh;
+}

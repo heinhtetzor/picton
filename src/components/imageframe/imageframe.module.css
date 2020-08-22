@@ -1,0 +1,10 @@
+.wrapper {
+  flex-grow: 1;
+  height: auto;
+  min-height: 500px;
+  min-width: 500px;
+  border: 1px solid #efefef;
+  border-radius: 8px;
+  overflow: auto;
+  background-color: white;
+}

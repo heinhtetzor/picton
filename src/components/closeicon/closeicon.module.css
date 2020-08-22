@@ -1,0 +1,17 @@
+.wrapper {
+  position: absolute;
+  padding-top: 5px;
+  box-sizing: border-box;
+  top: 4px;
+  right: 50px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+
+  border: 1px solid #e3e4e6;
+  color: #e3e3ef;
+  cursor: pointer;
+}
+.wrapper:hover {
+  background-color: lightgray;
+}

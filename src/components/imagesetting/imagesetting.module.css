@@ -1,0 +1,37 @@
+.wrapper {
+  flex-grow: 1;
+  width: var(---frameWidth);
+  max-height: 400px;
+  background-color: #fff;
+  border: 1px solid #efefef;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+label {
+  width: 30%;
+}
+input, select {
+  width: 50%;
+  height: 1.5rem;
+  border-radius: 9px;
+  border-style: groove;
+  outline: none;
+}
+.downloadBtn {
+  width: 95%;
+  display: block;
+  margin: 0px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid #efefef;
+  text-align: center;
+  background-color: green;
+  color: white;
+  font-size: 1.5rem;
+  height: 2rem;
+  cursor: pointer;
+}
+.downloadBtn:hover {
+  filter: brightness(1.4);
+  box-shadow: 0px 5px 10px #e3e4e4;
+}
