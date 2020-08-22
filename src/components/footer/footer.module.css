@@ -1,6 +1,7 @@
 .wrapper {
-    bottom: 0;
+    /* bottom: 0; */
     position: absolute;
+    border-bottom: none;
     box-shadow: 0px -5px 10px lightgray;
     width: 100%;
     background-color: #fff;

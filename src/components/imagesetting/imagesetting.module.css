@@ -1,6 +1,5 @@
 .wrapper {
   flex-grow: 1;
-  width: var(---frameWidth);
   max-height: 400px;
   background-color: #fff;
   border: 1px solid #efefef;
