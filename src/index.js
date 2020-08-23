@@ -26,7 +26,7 @@ const imagePrimaryState = {
   fontFamily: "Georgia",
   color: "#000",
   alpha: 0.5,
-  rotateDegree: 0,
+  rotateDegree: -20,
   isPattern: true
 }
 const imageSettings = (state=imagePrimaryState, action) => {

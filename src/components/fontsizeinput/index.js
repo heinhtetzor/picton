@@ -12,8 +12,12 @@ function FontSizeInput({ handleFontSizeChange }) {
         <div className={styles.group}>
             <label htmlFor="fontSize">Font Size</label>
             <input 
+            type="range"
+            onChange={e => handleFontSizeChange(e)}
+            step="10"
+            min="10"
             ref={i}
-            placeholder="*" onChange={e => handleFontSizeChange(e)} type="number" step="10" min="10"/>
+            />
         </div>
         )
 }
