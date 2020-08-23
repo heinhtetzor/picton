@@ -18,6 +18,11 @@ const MyImage = ({ imgUrl,
     const i = new Image();
     i.src = imgUrl;
     i.onload = () => {
+      if(i.width > 1000 && i.height > 1000) {
+        i.width *= 0.5;
+        i.height *= 0.5;
+      }
+     
       const textLocation = {
         x : i.width/2 - (i.width/5),
         y : i.height/2
